@@ -1,0 +1,26 @@
+
+.board{
+    display:flex;
+    height:65vh;
+    width:100vw;
+    border:0px solid red;
+    flex-direction: column;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .board {
+      margin-left: 50px;
+    }
+  }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid red;
+    width:100%;
+    flex:1;
+   /*  justify-content: stretch;
+    align-items: stretch; */
+}
+
